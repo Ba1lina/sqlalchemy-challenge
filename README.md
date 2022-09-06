@@ -7,19 +7,12 @@ First I used Python and SQLAlchemy to perform basic climate analysis and data ex
 ```
 project 
 |__ .gitignore          # gitignore file
-|__ requirements.txt         # conda environment
+|__ climate_starter.ipynb  # data cleaned and analysis
+|__ app.py                  # flask app
 | 
-|__ data/               # contains raw and cleaned data
-|   |__ raw.csv         # raw data
-|   |__ cleaned.csv     # cleaned data
-|
-|__ notebooks/
-|   |__ cleaning.ipynb  # cleaning notebook that takes in the raw data and outputs cleaned data for analysis
-|   |__ analysis.ipynb  # analysis notebook that contains charts 
-|
-|__ images/             # contains snippets from jupyter notebook
-|
-|__ proposal/
-|   |__ proposal.md     # project proposal 
+|__ Resources/          # contains raw data and sql database
+|   |__ hawaii_measurement.csv         # raw data
+|   |__ hawaii_stations.csv     # raw data
+|   |__ hawaii.sqlite     # SQL database
 
 ```
